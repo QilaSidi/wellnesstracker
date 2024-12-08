@@ -1,0 +1,103 @@
+/* General Background */
+.mainFxmlClass {
+    -fx-background-color: linear-gradient(to bottom, #d6eaf8, #f2f4f4); /* Gradient from light blue to white */
+    -fx-padding: 25px; /* Increased padding for a spacious layout */
+    -fx-border-radius: 10px; /* Rounded edges for the entire interface */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.5, 0, 3); /* Subtle shadow for depth */
+}
+
+/* Title Styling */
+.Label {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 28px; /* Slightly larger for emphasis */
+    -fx-font-weight: bold;
+    -fx-text-fill: #2e4053; /* Darker blue-gray for contrast */
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(46, 64, 83, 0.4), 8, 0.3, 0, 2); /* Text shadow for a subtle glow */
+}
+
+/* Labels for Input Fields */
+.Label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f618d; /* Soft blue for labels */
+}
+
+/* Input Fields (TextField & DatePicker) */
+.TextField, .DatePicker {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #5dade2; /* Soft blue border */
+    -fx-border-width: 1px;
+    -fx-padding: 8px 12px; /* Comfortable padding */
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-border-radius: 8px; /* Rounded corners for modern look */
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.1), 3, 0.2, 1, 1); /* Subtle inner shadow */
+    -fx-focus-color: #3498db; /* Highlight on focus */
+    -fx-text-fill: #2c3e50;
+}
+
+/* Buttons */
+.Button {
+    -fx-background-color: linear-gradient(to bottom, #5dade2, #3498db); /* Gradient effect */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 12px 25px;
+    -fx-border-radius: 25px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 6, 0.3, 0, 2); /* Slight shadow for depth */
+    -fx-cursor: hand; /* Pointer on hover */
+}
+
+/* Button Hover Effect */
+.Button:hover {
+    -fx-background-color: linear-gradient(to bottom, #3498db, #2980b9); /* Darker blue on hover */
+    -fx-scale-x: 1.05; /* Slightly larger for emphasis */
+    -fx-scale-y: 1.05;
+}
+
+/* Button Pressed Effect */
+.Button:pressed {
+    -fx-background-color: #1f6fa5; /* Solid darker blue when clicked */
+}
+
+/* TextArea Styling */
+.TextArea {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #3498db;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-border-radius: 8px;
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.1), 3, 0.2, 1, 1); /* Subtle inner shadow */
+    -fx-focus-color: #3498db; /* Highlight border on focus */
+    -fx-text-fill: #2c3e50;
+}
+
+/* Layout for Input Fields */
+.AnchorPane {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-padding: 35px; /* Increased padding for comfort */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0.3, 0, 2); /* Soft outer shadow */
+}
+
+/* Form Elements Spacing */
+.children {
+    -fx-spacing: 18px; /* Balanced spacing for form elements */
+}
+
+/* Placeholder Styling */
+.TextField:focused, .TextArea:focused {
+    -fx-background-color: #ecf0f1; /* Light gray background when focused */
+    -fx-border-color: #5dade2;
+}
+
+/* DatePicker Styling */
+.DatePicker {
+    -fx-background-color: white;
+    -fx-border-color: #3498db;
+    -fx-border-radius: 8px;
+    -fx-padding: 8px 12px;
+}

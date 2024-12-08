@@ -1,0 +1,60 @@
+/*
+ * Empty Stylesheet file.
+ */
+/* Main Dashboard */
+/* Main Container Styling */
+/* Main Container Styling */
+.mainFxmlClass {
+    -fx-background-color: linear-gradient(to right, #ff9a9e, #fad0c4, #fbc2eb); /* Warm and vibrant gradient */
+    -fx-padding: 25px; /* Add padding around the layout */
+    -fx-border-radius: 15px; /* Rounded edges for the entire form */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.3, 0, 5); /* Drop shadow for depth */
+}
+
+/* Title Label Styling */
+.mainFxmlClass Label {
+    -fx-font-size: 36px; /* Larger title for better emphasis */
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff; /* Bright white title text for contrast */
+    -fx-padding: 20px 0;
+    -fx-effect: dropshadow(gaussian, rgba(255, 182, 193, 0.5), 6, 0.5, 0, 3); /* Soft shadow for a glowing effect */
+    -fx-alignment: center;
+}
+
+/* Button Styling */
+.mainFxmlClass Button {
+    -fx-background-color: linear-gradient(to bottom, #43cea2, #185a9d); /* Cool gradient for buttons */
+    -fx-text-fill: #ffffff; /* White text for readability */
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 15px 30px;
+    -fx-border-radius: 12px; /* Rounded button corners */
+    -fx-background-radius: 12px;
+    -fx-cursor: hand; /* Pointer cursor on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.2, 0, 3); /* Drop shadow for button depth */
+    -fx-pref-width: 220px; /* Consistent button width */
+}
+
+/* Button Hover Effect */
+.mainFxmlClass Button:hover {
+    -fx-background-color: linear-gradient(to bottom, #66d9c0, #2b7dc6); /* Slightly lighter gradient on hover */
+    -fx-text-fill: #fdfdfd; /* Subtle change in text brightness */
+    -fx-scale-x: 1.08; /* Smooth scaling on hover */
+    -fx-scale-y: 1.08;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 6, 0.3, 0, 3); /* Enhanced shadow effect */
+}
+
+/* VBox Container Styling */
+.mainFxmlClass VBox {
+    -fx-spacing: 25px; /* Generous spacing between buttons */
+    -fx-alignment: center; /* Center-align content */
+    -fx-padding: 30px; /* Extra padding around content */
+}
+
+/* Button Focus Effect */
+.mainFxmlClass Button:focused {
+    -fx-border-color: #ffffff; /* Bright white border on focus */
+    -fx-border-width: 2px;
+    -fx-border-radius: 12px;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.6), 8, 0.4, 0, 3); /* Bright glow on focus */
+}

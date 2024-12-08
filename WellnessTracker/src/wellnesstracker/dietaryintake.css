@@ -1,0 +1,98 @@
+/* Main Background for Dietary Intake */
+.mainFxmlClass {
+    -fx-background-color: linear-gradient(to right, #A1C4FD, #C2E9FB); /* Gradient from light blue to soft blue */
+    -fx-padding: 20px; /* Padding around the entire layout */
+}
+
+/* Title Styling */
+.mainFxmlClass Label {
+    -fx-font-size: 30px; /* Large font size for title */
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C3E50; /* Dark blue for title text */
+    -fx-alignment: center;
+    -fx-padding: 20px 0;
+    -fx-effect: dropshadow(gaussian, #3498db, 10, 0, 0, 5); /* Light shadow for title */
+}
+
+/* Label Style */
+.mainFxmlClass Label {
+    -fx-font-size: 18px; /* Slightly larger font size for labels */
+    -fx-font-weight: bold;
+    -fx-text-fill: #34495e; /* Dark gray for labels */
+    -fx-padding: 12px 0;
+}
+
+/* TextField Styling */
+.mainFxmlClass TextField, .mainFxmlClass PasswordField {
+    -fx-background-color: #ffffff; /* White background for input fields */
+    -fx-border-color: #3498db; /* Light blue border */
+    -fx-border-radius: 8px; /* Rounded corners */
+    -fx-padding: 10px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 16px;
+    -fx-text-fill: #212121; /* Dark text color */
+}
+
+/* Placeholder Text Styling */
+.mainFxmlClass TextField::placeholder, .mainFxmlClass PasswordField::placeholder {
+    -fx-font-style: italic;
+    -fx-text-fill: #BDBDBD; /* Light gray color for placeholder text */
+}
+
+/* ComboBox Styling */
+.mainFxmlClass ComboBox {
+    -fx-font-size: 16px;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #3498db;
+    -fx-border-radius: 8px;
+    -fx-padding: 10px;
+    -fx-pref-height: 40px;
+}
+
+/* TextArea Styling */
+.mainFxmlClass TextArea {
+    -fx-background-color: #ecf0f1; /* Very light gray */
+    -fx-border-color: #3498db; /* Light blue border */
+    -fx-border-radius: 8px;
+    -fx-padding: 12px;
+    -fx-pref-height: 150px; /* Increased height for text area */
+    -fx-pref-width: 350px;
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.1), 6, 0.5, 2, 2); /* Soft shadow effect */
+}
+
+/* Button Styling */
+.mainFxmlClass Button {
+    -fx-background-color: #3498db; /* Blue button */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 12px 25px;
+    -fx-border-radius: 25px;
+    -fx-cursor: hand;
+}
+
+/* Button Hover Effect */
+.mainFxmlClass Button:hover {
+    -fx-background-color: #2980b9; /* Darker blue on hover */
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+/* Spacing Between Form Fields */
+.mainFxmlClass .form-field {
+    -fx-spacing: 15px; /* Space between labels and input fields */
+}
+
+/* Align Input Fields (TextFields, ComboBox) */
+.mainFxmlClass .form-field TextField,
+.mainFxmlClass .form-field ComboBox,
+.mainFxmlClass .form-field TextArea {
+    -fx-alignment: center-left;
+    -fx-pref-width: 350px; /* Uniform width */
+}
+
+/* Button Container */
+.mainFxmlClass .form-actions {
+    -fx-alignment: center;
+    -fx-spacing: 20px; /* Space between the button and form fields */
+}
